@@ -11,9 +11,6 @@ client.on('message', message => {
       }
 });
 
-
-const Discord = require('discord.js');
-const client = new Discord.Client();
 const fs = require("fs");
 const UserBlocked = new Set();
 
@@ -3905,6 +3902,7 @@ client.on('message', message => {
 });
 
 
-});
+
+
 // THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
