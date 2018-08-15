@@ -690,7 +690,6 @@ client.on('message', message => {
 });
 
 bot.connect();
-client.login("NDcxOTcyMTAwMTY1NDY4MTYx.DjtBSA.MLBsshUbtYtJYMtncfVI3lUcORY");
 const share = new Discord.Client();
 share.on('guildMemberAdd', member => {
      member.createDM().then(function (author) {
