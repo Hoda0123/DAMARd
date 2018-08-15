@@ -2978,5 +2978,5 @@ client.on("guildMemberAdd", member => {
 
 
 
-//MHSTR END NOW THIS IS END
-client.login(NDc1MDIxMDgzMjI2MDEzNzE3.DlWRFQ.JfOjG1H-J0M74ZgMZrTbn-e3RSo);
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
