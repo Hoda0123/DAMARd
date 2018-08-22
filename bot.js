@@ -1248,7 +1248,7 @@ var heroo = new Discord.RichEmbed()
 .addField("**ايدي البوت **:","**[ "+client.user.id+" ]**",true)
 .addField("**الحجم المستخدم** :",`**[ ${(process.memoryUsage().rss / 1048576).toFixed()}MB ]**`,true)
 .addField("**موعد الاقلاع** :",`**[** **Days:** \`${days}\` **Hours:** \`${hours}\` **Minutes:** \`${minutes}\` **Seconds:** \`${seconds}\` **]**`,true)
-.setFooter("Sliver team  |");
+.setFooter("Super Flash  |");
   message.channel.send({embed:v1}).then(m => {
       setTimeout(() => {
          m.edit({embed:heroo});
